@@ -1,0 +1,16 @@
+.name{
+    background: url("../../image/person_icon.svg") no-repeat scroll;
+    background-position-x:0.7em;
+    background-position-y:0.6em;
+    background-size:1.2em;
+    padding-left:2.5em;
+}
+
+.email{
+    background: url("../../image/email.svg") no-repeat scroll;
+    background-position-x:0.7em;
+    background-position-y:0.9em;
+    background-size:1.4em;
+    padding-left:2.5em;
+}
+
