@@ -9,11 +9,14 @@ function DesktopImages(props) {
     return (
         <>
             <Images flex="0.25"  src={props.portfolio.imageFirst}/>
-            <HoverActions widthChildren={width} flex={"0.5"} child={<Images ref={myRefs} src={props.portfolio.imageSecond}/>}
+            <HoverActions widthChildren={width} flex={"0.5"}
                           title={props.portfolio.title} body={props.portfolio.body}
-            />
+            >
+                <a href={props.portfolio.link}>
+                    <Images ref={myRefs} src={props.portfolio.imageSecond}/>
+                </a>
+            </HoverActions>
             <Images flex="0.25" src={props.portfolio.imageThird}/>
-
             <div style={{
                 margin: "20px"
             }}/>

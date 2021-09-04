@@ -1,17 +1,16 @@
 import {StorePriceSite} from "../store/sites/StorePriceSite";
-import {StorePriceSMM} from "../store/StorePriceSMM";
+import {StorePriceBots} from "../store/StorePriceBots";
 import {StorePriceApp} from "../store/StorePriceApp";
 import {StorePriceDesign} from "../store/StorePriceDesign";
 import Paginate from "../../../helpers/scroll/Paginate";
 
 export class HandleChoices {
     constructor(statePaginate, stateOverallPrice, stateChosenPrices) {
-        this.paginate = new Paginate(4, statePaginate);
+        this.paginate = new Paginate(3, statePaginate);
         this.prices = [
             StorePriceSite,
-            StorePriceSMM,
+            StorePriceBots,
             StorePriceApp,
-            StorePriceDesign
         ]
         this.overallPrice = stateOverallPrice[0];
         this.setOverallPrice = stateOverallPrice[1];

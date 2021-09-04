@@ -3,7 +3,7 @@ import React, {useState} from "react";
 import Paginate from "../../../../helpers/scroll/Paginate";
 
 
-function HandleImageComponents({portfolio},refs) {
+function HandleImageComponents({portfolio}, refs) {
     const paginate = new Paginate(3, useState(0))
     const listImages = [
         portfolio.imageFirst,
@@ -29,14 +29,16 @@ function HandleImageComponents({portfolio},refs) {
     }
 
     function selectedImage(index) {
+        return  "100%";
         return paginate.isSelected(index) ? "18rem" : "5rem";
     }
 
     return (
         <>
-            {listImages.map(getImages)}
+            {getImages(portfolio.imageSecond, 2)}
         </>
     );
 }
-export  default React.forwardRef(HandleImageComponents);
+
+export default React.forwardRef(HandleImageComponents);
 

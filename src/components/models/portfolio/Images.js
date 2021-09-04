@@ -19,7 +19,7 @@ function Images({
         <div   ref={ref}  className="image-portfolio" style={style}>
             <img style={{
                 width: width,
-                height: height
+                height: height,
             }} src={src}>
             </img>
         </div>

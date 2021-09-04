@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {css, StyleSheet} from "aphrodite";
 import DescriptionPortfolioDesktop from "./DescriptionPortfolioDesktop";
 
-function HoverActions({child, widthChildren,flex ="" , title , body}) {
+function HoverActions({children, widthChildren,flex ="" , title , body}) {
     const [isHover, setHover] = useState(false);
 
     function onMouseEnter() {
@@ -27,7 +27,7 @@ function HoverActions({child, widthChildren,flex ="" , title , body}) {
     })
     return (
         <div className={css(style.container, style.hover)} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-            {child}
+            {children}
             {isHover && <DescriptionPortfolioDesktop width={widthChildren} title={title} body={body}/>}
         </div>
     );

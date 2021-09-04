@@ -48,14 +48,14 @@ function App() {
                             <DesktopHeader index={2}/>
                             <Prices/>
                         </Route>
-                        <Route path={Routing.REVIEWS}>
-                            <DesktopHeader index={3}/>
-                            <Reviews/>
-                        </Route>
-                        <Route path={Routing.CONTACT_US}>
-                            <DesktopHeader index={4}/>
-                            <ContactUs/>
-                        </Route>
+                        {/*<Route path={Routing.REVIEWS}>*/}
+                        {/*    <DesktopHeader index={3}/>*/}
+                        {/*    <Reviews/>*/}
+                        {/*</Route>*/}
+                        {/*<Route path={Routing.CONTACT_US}>*/}
+                        {/*    <DesktopHeader index={4}/>*/}
+                        {/*    <ContactUs/>*/}
+                        {/*</Route>*/}
                     </Switch>
                 }
                 {mobile && <>
@@ -65,8 +65,8 @@ function App() {
                     <Main ref={arrayOfRefs[0]}/>
                     <Portfolio ref={arrayOfRefs[1]}/>
                     <Prices ref={arrayOfRefs[2]}/>
-                    <Reviews ref={arrayOfRefs[3]}/>
-                    <ContactUs ref={arrayOfRefs[4]}/>
+                    {/*<Reviews ref={arrayOfRefs[3]}/>*/}
+                    {/*<ContactUs ref={arrayOfRefs[4]}/>*/}
                 </>
                 }
             </Router>

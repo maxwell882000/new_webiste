@@ -8,7 +8,7 @@ function Logo(props) {
             width:"0%"
         }}>
             <img src={logo} style={{
-                width:"1.5rem"
+                width:"1rem"
             }}/>
         </div>
 

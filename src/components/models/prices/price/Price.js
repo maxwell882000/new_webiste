@@ -33,7 +33,7 @@ function Price({unique_style, handleChoices}) {
                     </div>
                     <Buttons onClick={()=>{
                         openModel(true);
-                    }} nameOfButton="Купить" width="45%" />
+                    }} nameOfButton="Заказать" width="45%" />
 
                 </div>
                 <img className={css(unique_style.saly, style.absolute)} src={saly}/>

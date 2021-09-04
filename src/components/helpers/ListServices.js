@@ -14,13 +14,10 @@ function ListServices({paginate}) {
             title: "Cайты"
         },
         {
-            title: "SMM"
+            title: "Боты"
         },
         {
             title: "Приложения"
-        },
-        {
-            title: "Дизайн"
         },
     ]
     const components = text.map((title, i) => {

@@ -16,13 +16,13 @@ export const StorePriceSite = [
     },
     {
         id: 4,
-        title: "Pro сайты",
+        title: "Pro сайт",
         price: 1500,
     },
 
     {
         id: 5,
-        title: "Комерческие сайты",
+        title: "Комерческий сайт",
         price: 2000,
     },
 

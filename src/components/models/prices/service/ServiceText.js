@@ -48,7 +48,7 @@ function ServiceText({
                         width: "80%"
                     }} src={check}/>
                 </div>
-                <Text text={title} fontWeight={600} size={"1.05rem"}> </Text>
+                <Text text={title} fontWeight={600} size={"0.8rem"}> </Text>
             </div>
             <div>
                 <Text text={"$" + price} color={"#979797"} size={"0.9rem"} fontStyle={"italic"} fontWeight={400}/>
