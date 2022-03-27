@@ -3,12 +3,20 @@ import CustomModel from "../../../helpers/CustomModel";
 import Title from "../../../helpers/text/Title";
 import Buttons from "../../../helpers/Buttons";
 import Text from "../../../helpers/text/Text";
+import {useMediaQuery} from "react-responsive";
+import {RESPONSIVE} from "../../../../responsive/Responsive";
 
 function ModalPrice({state, allPrices}) {
     const style = {
         padding: "2em",
         margin: "auto auto"
     }
+
+    const isMobile = useMediaQuery(RESPONSIVE.MOBILE);
+    if (isMobile){
+        style.padding = "";
+    }
+
     const [isModalOpen, openModal] = state;
     return (
         <CustomModel state={state}>

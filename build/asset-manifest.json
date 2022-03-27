@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/new_webiste/static/css/main.7c9e09c0.chunk.css",
-    "main.js": "/new_webiste/static/js/main.327d4420.chunk.js",
-    "main.js.map": "/new_webiste/static/js/main.327d4420.chunk.js.map",
-    "runtime-main.js": "/new_webiste/static/js/runtime-main.eb5286b0.js",
-    "runtime-main.js.map": "/new_webiste/static/js/runtime-main.eb5286b0.js.map",
-    "static/js/2.6ef0963a.chunk.js": "/new_webiste/static/js/2.6ef0963a.chunk.js",
-    "static/js/2.6ef0963a.chunk.js.map": "/new_webiste/static/js/2.6ef0963a.chunk.js.map",
-    "static/js/3.f7961a44.chunk.js": "/new_webiste/static/js/3.f7961a44.chunk.js",
-    "static/js/3.f7961a44.chunk.js.map": "/new_webiste/static/js/3.f7961a44.chunk.js.map",
+    "main.css": "/new_webiste/static/css/main.e02cad4c.chunk.css",
+    "main.js": "/new_webiste/static/js/main.cd330af7.chunk.js",
+    "main.js.map": "/new_webiste/static/js/main.cd330af7.chunk.js.map",
+    "runtime-main.js": "/new_webiste/static/js/runtime-main.373ecbb6.js",
+    "runtime-main.js.map": "/new_webiste/static/js/runtime-main.373ecbb6.js.map",
+    "static/js/2.671b6b34.chunk.js": "/new_webiste/static/js/2.671b6b34.chunk.js",
+    "static/js/2.671b6b34.chunk.js.map": "/new_webiste/static/js/2.671b6b34.chunk.js.map",
+    "static/js/3.cc2d778c.chunk.js": "/new_webiste/static/js/3.cc2d778c.chunk.js",
+    "static/js/3.cc2d778c.chunk.js.map": "/new_webiste/static/js/3.cc2d778c.chunk.js.map",
     "index.html": "/new_webiste/index.html",
-    "static/css/main.7c9e09c0.chunk.css.map": "/new_webiste/static/css/main.7c9e09c0.chunk.css.map",
-    "static/js/2.6ef0963a.chunk.js.LICENSE.txt": "/new_webiste/static/js/2.6ef0963a.chunk.js.LICENSE.txt",
+    "static/css/main.e02cad4c.chunk.css.map": "/new_webiste/static/css/main.e02cad4c.chunk.css.map",
+    "static/js/2.671b6b34.chunk.js.LICENSE.txt": "/new_webiste/static/js/2.671b6b34.chunk.js.LICENSE.txt",
     "static/media/a1.e0d4ebf9.jpg": "/new_webiste/static/media/a1.e0d4ebf9.jpg",
     "static/media/a2.6c3f8e8c.jpg": "/new_webiste/static/media/a2.6c3f8e8c.jpg",
     "static/media/a3.a6df0e83.png": "/new_webiste/static/media/a3.a6df0e83.png",
@@ -40,9 +40,9 @@
     "static/media/saly.10b917c5.png": "/new_webiste/static/media/saly.10b917c5.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.eb5286b0.js",
-    "static/js/2.6ef0963a.chunk.js",
-    "static/css/main.7c9e09c0.chunk.css",
-    "static/js/main.327d4420.chunk.js"
+    "static/js/runtime-main.373ecbb6.js",
+    "static/js/2.671b6b34.chunk.js",
+    "static/css/main.e02cad4c.chunk.css",
+    "static/js/main.cd330af7.chunk.js"
   ]
 }

@@ -46,7 +46,8 @@ function Category({pathToImage, text, colorImageBack}) {
             alignItems: "center",
             padding: "0.3rem",
             width: distributeWidth(),
-            marginBottom: "1.5rem"
+            marginBottom: "1.5rem",
+            marginRight:"0.6rem"
         },
     })
     return (

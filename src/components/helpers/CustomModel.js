@@ -1,5 +1,7 @@
 import React from 'react';
 import Modal from 'react-modal';
+import {useMediaQuery} from "react-responsive";
+import {RESPONSIVE} from "../../responsive/Responsive";
 
 function    CustomModel({
                          state,
@@ -27,6 +29,11 @@ function    CustomModel({
             transform: 'translate(-50%, -50%)',
         },
     }
+    const isMobile = useMediaQuery(RESPONSIVE.MOBILE);
+    if (isMobile){
+        style.content.width = "50%";
+    }
+
     return (
         <Modal onRequestClose={closeModel} style={style} isOpen={isOpen}>{children} </Modal>
     );

@@ -35,7 +35,7 @@ function ServiceText({
     })
 
     return (
-        <div className={css(style.additionalStyle) + " service alItCenter row"}>
+        <div ref={ref} className={css(style.additionalStyle) + " service alItCenter row"}>
             <div className="alItCenter row">
                 <div className={css(style.checkBox) + " row alItCenter jccenter"}
                      onClick={() => {

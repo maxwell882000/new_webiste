@@ -22,15 +22,16 @@ function getServiceText(handleChoices, ref) {
 }
 
 function getHeight(height, length) {
-    const oneComponentHeight = height / length;
-    const fiveComponentHeight = oneComponentHeight * 5 + "px";
-    return length > 1 ? fiveComponentHeight : "";
-}
 
+    const fourComponentHeight = height * 4 + "px";
+    return length > 4 && height!==0 ? fourComponentHeight : "";
+}
+function checkIfScrollable(handleChoices){
+    return handleChoices.providePriceListLength() > 4 ? "scroll" : null;
+}
 function ServicePhone({handleChoices}) {
     const buttonRef = useRef(null);
     const servicesRef = useRef(null);
-
     const widthButton = useContainerDimensions(buttonRef).width;
     const heightServices = useContainerDimensions(servicesRef).height;
     const components = getServiceText(handleChoices, servicesRef);
@@ -44,6 +45,7 @@ function ServicePhone({handleChoices}) {
             <ServiceButton onClick={() => {
                 hideServices(!isServicesHidden);
                 console.log(heightServices);
+                console.log(handleChoices.providePriceListLength());
             }} ref={buttonRef}/>
             <div style={{
                 position: "absolute",
@@ -54,13 +56,11 @@ function ServicePhone({handleChoices}) {
                     width: widthButton,
                     borderRadius: "10px",
                     overflowX: "hidden",
-                    overflowY:"scroll",
+                    overflowY:checkIfScrollable(handleChoices),
                     height: getHeight(heightServices, handleChoices.providePriceListLength()),
                     border: "1px solid #EAE9F2",
                 }} hidden={isServicesHidden}>
-                    <div ref={servicesRef}>
                         {components}
-                    </div>
                 </div>
             </div>
         </div>

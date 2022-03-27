@@ -14,11 +14,11 @@ const Cartegories = () => {
         <>
             <div className="row wrap">
                 <Category pathToImage={cards} text="Веб-сайты" colorImageBack={"#EEEEFB"}/>
-                <div style={margin}/>
+                {/*<div style={margin}/>*/}
                 <Category pathToImage={doc} text="Боты" colorImageBack={"rgba(210, 74, 106, 0.2)"}/>
                 {/*<div style={margin}/>*/}
                 {/*<Category pathToImage={chat} text="SMM" colorImageBack={"rgba(119, 191, 65, 0.1)"}/>*/}
-                <div style={margin}/>
+                {/*<div style={margin}/>*/}
                 <Category pathToImage={phone} text="Приложения" colorImageBack={"rgba(254, 220, 90, 0.1)"}/>
             </div>
         </>

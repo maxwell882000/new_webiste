@@ -5,6 +5,7 @@ class Paginate {
         this.currentPage = currentPage;
         this.setCurrentPage = setCurrentPage;
         this.lastPage = length - 1;
+
     }
 
     goToNextPage(selectedPage = 1) {
@@ -18,7 +19,6 @@ class Paginate {
     }
 
     goPageDecide(selected) {
-        console.log(selected);
         if (selected > this.currentPage) {
             this.goToNextPage(selected);
         } else if (selected < this.currentPage) {
